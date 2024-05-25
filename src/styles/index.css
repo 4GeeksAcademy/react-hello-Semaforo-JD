@@ -10,3 +10,47 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+.traffic-light{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.light {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: #555;
+}
+.red{
+    background:red
+}
+.yellow{
+    background: yellow}
+.green{
+    background: green
+}
+.glow{
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f42323;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #a8f121;
+  }
